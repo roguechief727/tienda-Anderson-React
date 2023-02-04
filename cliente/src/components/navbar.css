@@ -1,0 +1,21 @@
+.navbar {/*se le da tamaño y posicion al header*/
+    width: 100%;
+    height: 80px;
+    background-color: rgb(82, 175, 6);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .links {/*se le da posicion a los contenedores de los link */
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {/*se le agrega estilo a los textos de los links*/
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+  }

@@ -1,0 +1,85 @@
+.shopTitle {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .product {
+    border-radius: 15px;
+    width: 450px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0%;}
+    33% {margin-left: 0%;}
+
+    35% {margin-left: -100%;}
+    66% {margin-left: -100%;}
+
+    69% {margin-left: -200%;}
+    99% {margin-left: -200%;}
+  }
+
+ .slide-var {
+    width: 50%;
+    margin: 50px auto 0;
+    overflow: hidden;
+ }
+
+ .slide-var ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 12s infinite alternate ease-in-out;
+ }
+
+ .slide-var li {
+    list-style: none;
+    width: 100%;
+ }
+
+ .slide-var img {
+    width: 100%;
+ }
+  
+  .product .description {
+    text-align: center;
+  }
+  .product .descripcion {
+    font-size: 15px;
+  }
+  
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .addToCartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  .addToCartBttn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }

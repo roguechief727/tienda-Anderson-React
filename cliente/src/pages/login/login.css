@@ -1,0 +1,70 @@
+.login-form, .contenedor {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.login-form input[type = "password"],
+.login-form input[type = "text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom:10px;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(76, 162, 5);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.btn-login:hover, btn-login:active{
+    color: white;
+    background-color: #165c19;
+    border-color: #165c19;
+}
+
+.btn-login:focus{
+    box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
+
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: gray;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    color: black;
+    margin-top: 20px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-register:hover, btn-register:active{
+    color: white;
+    background-color: #10b981;
+    border-color: #10b981;
+}
+
+.btn-register:focus{
+    box-shadow: 0 0 0 3px #10b981;
+}
