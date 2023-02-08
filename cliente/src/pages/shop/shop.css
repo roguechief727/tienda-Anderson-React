@@ -1,13 +1,14 @@
+
 .shopTitle {
     margin-top: 100px;
     text-align: center;
     font-size: 40px;
   }
   .products {
-    width: 100%;
+    width: 100vw;
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     place-items: center;
   }
   

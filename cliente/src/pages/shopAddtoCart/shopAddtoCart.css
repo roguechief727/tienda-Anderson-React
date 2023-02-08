@@ -6,20 +6,22 @@
   .products {
     width: 100%;
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     place-items: center;
+    justify-content: center;
   }
   
   .product {
     border-radius: 15px;
-    width: 450px;
+    width: 400px;
     height: 500px;
     margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 22px;
   }
   
   @keyframes slide {

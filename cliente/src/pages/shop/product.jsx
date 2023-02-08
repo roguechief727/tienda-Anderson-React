@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Product = (props) => {
-    const { nombre, precio, description, img1, img2, img3 } = props.data; //se le da valor a las variables en funcion de lo que se saca de la base de datos
+    const { nombre, precio, descripcion, img1, img2, img3 } = props.data; //se le da valor a las variables en funcion de lo que se saca de la base de datos
     return (
         <div className="product"> {/*aqui se muestran las informaciones de los productos en la pagina principal */}
             <div className="slide-var">
@@ -12,7 +12,7 @@ export const Product = (props) => {
                 </ul>
             </div>
             <div className="descripcion">
-                <p>{description}</p>
+                <p>{descripcion}</p>
             </div>
             <div className="description"> 
                 <p> 
