@@ -36,7 +36,6 @@ const Login = () => {
     }, [])
 
     const getUsers = async() => {//aqui se soolicitan los usurios
-        console.log('hola');
         const res = await axios.get(URI)
         console.log(res.data);
         setUsers(res.data)
