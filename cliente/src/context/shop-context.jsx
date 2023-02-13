@@ -43,7 +43,7 @@ export const ShopContextProvider = (props) => {
                 totalAmount += cartItems[item] * itemInfo.precio; //dentro de totalAmount se almacena la multiplicacion del precio del producto multiplicado por la cantidad de productos que se encuentra del arreglo
             }
         }
-
+ 
         return totalAmount;//retorna el valor total de la compra 
     };
 
